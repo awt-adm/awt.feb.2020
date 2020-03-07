@@ -8,14 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
 function colorFondo() {
   let body = document.querySelector("body");
 
-  body.style.backgroundColor = "gray";
+  body.style.backgroundColor = "lime";
 }
 
 const slider = () => {
   $("#bienvenida").slick({
     autoplay: true,
-    autoplaySpeed: 500,
-    speed: 400,
+    autoplaySpeed: 1000,
+    speed: 1000,
     dots: true
   });
 };
