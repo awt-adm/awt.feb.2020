@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     slider();
     colorFondo();
 
-    // console.log("Scripts OK.");
+    console.log("Scripts OK.");
 });
 
 function colorFondo() {
@@ -17,9 +17,9 @@ function colorFondo() {
 const slider = () => {
 
     $("#bienvenida").slick({
-        autoplay: true,
-        autoplaySpeed: 100,
-        speed: 100,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        speed: 1000,
         dots: true,
     })
 
