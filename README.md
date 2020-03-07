@@ -6,8 +6,10 @@ Curso web ADM
   - Fundamentos
     - [OOP / POO](https://codesolt.com/tutoriales/fundamentos/programacion-orientada-objetos/)
     - [OOP / POO](https://msdn.microsoft.com/es-es/library/bb972232.aspx)
-    - [ECMASrypt 6](https://www.youtube.com/watch?v=OjMZg9gTLgw)  
+    - [ECMAScript 6](https://www.youtube.com/watch?v=OjMZg9gTLgw)  
     - [JS](https://www.youtube.com/watch?v=k9wTpG8NI4Q)  
+    - [Material Design](https://material.io/)  
+    - [MarkDown](https://www.markdowntutorial.com/)  
 - GIT
   - ¿Qué es Git?
   - Instalación
