@@ -11,10 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <title>ADM clase 1 AWT</title>
 
-    <style>
-
-    </style>
-
 </head>
 
 <body>
@@ -179,11 +175,33 @@
 
         </section>
 
+        <section>
+           <h1>SUMAS</h1>
+
+
+    <div class="sumas">
+      <select class="operacion" name="operacion">
+        <option value="nada" selected>Selecciona una operacion</option>
+        <option value="suma">Suma</option>
+        <option value="multiplica">Multiplicación</option>
+        <option value="potencia">Potencia</option>
+      </select>
+      <input id="argumento1" type="number" name="arg1" value="1">
+      <input id="argumento2" type="number" name="arg2" value="1">
+      <button id="suma" type="button" name="button"></button>
+      <div class="resultado">
+
+      </div>
+    </div>
+
+        </section>
+
     </main>
 
 </body>
 <script src="js/jquery.js"></script>
-<script src="js/custom.js"></script>
 <script src="js/slick-1.8.1/slick/slick.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/ejercicios.js"></script>
 
 </html>
