@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     operacion();
     textoBoton();
 
-
-
     //Accede a objetos del dom
     let h1 = document.querySelector("#calculos h1");
     let h2 = document.querySelector("#calculos h2");
