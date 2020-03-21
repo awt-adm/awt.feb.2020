@@ -25,5 +25,9 @@ setInterval(() => {
 }, 3000);
 
 but.addEventListener("click", () => {
-  copy.style.display = "block";
+  if (copy.style.display == "none") {
+    copy.style.display = "block";
+  } else {
+    copy.style.display = "none";
+  }
 });
