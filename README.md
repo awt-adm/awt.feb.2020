@@ -6,8 +6,10 @@ Curso web ADM
   - Fundamentos
     - [OOP / POO](https://codesolt.com/tutoriales/fundamentos/programacion-orientada-objetos/)
     - [OOP / POO](https://msdn.microsoft.com/es-es/library/bb972232.aspx)
-    - [ECMASrypt 6](https://www.youtube.com/watch?v=OjMZg9gTLgw)  
+    - [ECMAScript 6](https://www.youtube.com/watch?v=OjMZg9gTLgw)  
     - [JS](https://www.youtube.com/watch?v=k9wTpG8NI4Q)  
+    - [Material Design](https://material.io/)  
+    - [MarkDown](https://www.markdowntutorial.com/)  
 - GIT
   - ¿Qué es Git?
   - Instalación
@@ -20,6 +22,9 @@ Curso web ADM
       - commit
       - pull
       - push
+  - Para salir del editor de texto VIM en Mac/Windows(gitbash)
+    - tecla 'esc'
+    - comando -> :q!
 
 ## **Clase 2**
 #### POO 2
@@ -63,4 +68,36 @@ Curso web ADM
       - Switch
       - For
       - While
+
+
+## **Clase 3**
+- JS
+  - Funciones
+      - Parámetros o argumentos
+    
+## **Clase 4**
+- JS
+  - (Arrays)[https://love2dev.com/blog/javascript-remove-from-array/]
+    - Indice, push
+  - setTimeout()  
+  - setInterval()
+  - TODO: 
+    - Crear Un js archivo nuevo
+    - Declararlo en el HTML
+    - Crean una nueva seccion id=ejercicio
+        - Titulo
+            - Funcionalidad: 
+                - Cambiar cada 3 segundos
+                - Por lo menos tres titulos distintos
+    
+        - Parrafo
+            - Funcionalidad: 
+                - Su estado por defecto 
+                    - estilo -> display:none
+    
+        - Boton
+            - Funcionalidad: 
+                - Aparecer el parrafo al hacer click
+
+- (SASS)[https://sass-lang.com/guide]
 
