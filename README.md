@@ -22,6 +22,9 @@ Curso web ADM
       - commit
       - pull
       - push
+  - Para salir del editor de texto VIM en Mac/Windows(gitbash)
+    - tecla 'esc'
+    - comando -> :q!
 
 ## **Clase 2**
 #### POO 2
@@ -77,3 +80,4 @@ Curso web ADM
     - Indice, push
 
 - (SASS)[https://sass-lang.com/guide]
+
