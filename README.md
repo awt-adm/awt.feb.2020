@@ -66,3 +66,14 @@ Curso web ADM
       - For
       - While
 
+
+## **Clase 3**
+- JS
+  - Funciones
+      - Parámetros o argumentos
+## **Clase 4**
+- JS
+  - (Arrays)[https://love2dev.com/blog/javascript-remove-from-array/]
+    - Indice, push
+
+- (SASS)[https://sass-lang.com/guide]
