@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
   slider();
   colorFondo();
 
@@ -6,16 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function colorFondo() {
+
   let body = document.querySelector("body");
 
   body.style.backgroundColor = "lime";
+
 }
 
 const slider = () => {
+
   $("#bienvenida").slick({
     autoplay: true,
     autoplaySpeed: 100,
     speed: 100,
-    dots: true
-  });
-};
+    dots: true,
+  })
+
+}
