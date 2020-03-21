@@ -74,10 +74,30 @@ Curso web ADM
 - JS
   - Funciones
       - Parámetros o argumentos
+    
 ## **Clase 4**
 - JS
   - (Arrays)[https://love2dev.com/blog/javascript-remove-from-array/]
     - Indice, push
+  - setTimeout()  
+  - setInterval()
+  - TODO: 
+    - Crear Un js archivo nuevo
+    - Declararlo en el HTML
+    - Crean una nueva seccion id=ejercicio
+        - Titulo
+            - Funcionalidad: 
+                - Cambiar cada 3 segundos
+                - Por lo menos tres titulos distintos
+    
+        - Parrafo
+            - Funcionalidad: 
+                - Su estado por defecto 
+                    - estilo -> display:none
+    
+        - Boton
+            - Funcionalidad: 
+                - Aparecer el parrafo al hacer click
 
 - (SASS)[https://sass-lang.com/guide]
 
