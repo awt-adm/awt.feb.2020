@@ -99,5 +99,13 @@ Curso web ADM
             - Funcionalidad: 
                 - Aparecer el parrafo al hacer click
 
+
+
+## **Clase 5**
 - (SASS)[https://sass-lang.com/guide]
+
+- Código creativo
+  - Supercollider
+  - Canvas
+  - P5.js
 
