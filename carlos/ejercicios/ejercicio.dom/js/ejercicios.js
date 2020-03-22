@@ -1,6 +1,7 @@
 // Arrow functions o funciones anonimas " () => {} "
 document.addEventListener("DOMContentLoaded", () => {
 
+
     operacion();
     textoBoton();
 
@@ -27,6 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }, 1000);
     // fin accesde a elementos del dom
+
+
+
 
 });
 // Eventos
