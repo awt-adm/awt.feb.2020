@@ -47,6 +47,20 @@ body header .menu ul li a {
   padding: 1rem;
   text-decoration: none;
 }
+body footer {
+  background-color: lightgray;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer p {
+  height: auto;
+  font-size: 0.75rem;
+}
+body footer p small {
+  color: gray;
+}
 
 #productos {
   background-color: lime;

@@ -55,6 +55,20 @@ body {
             }
         }
     }
+    footer {
+        background-color: lightgray;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            height: auto;
+            font-size: 0.75rem;
+            small {
+                color: gray;
+            }
+        }
+    }
 }
 
 // seccion productos
