@@ -82,10 +82,16 @@
     /*productos*/
     
     #productos {
+        display: block;
+    }
+    
+    #productos .contenedor-productos {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 2rem;
         grid-row-gap: 2rem;
+        box-sizing: border-box;
+        padding: 1rem;
     }
     
     #productos article {

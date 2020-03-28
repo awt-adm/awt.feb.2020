@@ -9,8 +9,8 @@ const slider = () => {
 
     $("#bienvenida").slick({
         autoplay: true,
-        autoplaySpeed: 100,
-        speed: 100,
+        autoplaySpeed: 5000,
+        speed: 3000,
         dots: true,
     })
 
