@@ -1,0 +1,87 @@
+// TODO: estilos a todo el sitio
+// mientras aprendemos la sintaxis de SASS
+// ordenar por variables
+// importar archivos
+// Creacion automatica clases
+// Hacer Header
+//
+// sintaxis version SASS
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 5rem;
+  background-color: rgb(247, 219, 167);
+  // seccion header
+  header {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: start;
+    height: 3.5rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    background-color: white;
+    box-shadow: 2px 0px 3px #000;
+    .logo {
+      height: 100%;
+      img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .menu {
+      display: flex;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-flex;
+        li {
+          list-style-type: none;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          a {
+            padding: 1rem;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: lightgray;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      height: auto;
+      font-size: 0.75rem;
+      small {
+        color: gray;
+      }
+    }
+  }
+}
+// seccion productos
+#productos {
+  background-color: rgb(240, 122, 162);
+
+  #article {
+    background-color: plum;
+    a {
+      background-color: rebeccapurple;
+      &:hover {
+        background-color: brown;
+      }
+    }
+  }
+}
