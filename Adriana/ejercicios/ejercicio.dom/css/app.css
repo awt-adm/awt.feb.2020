@@ -5,6 +5,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 5rem;
+  background-color: #f7dba7;
 }
 body header {
   box-sizing: border-box;
@@ -47,16 +48,32 @@ body header .menu ul li a {
   padding: 1rem;
   text-decoration: none;
 }
+body footer {
+  background-color: lightgray;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer p {
+  height: auto;
+  font-size: 0.75rem;
+}
+body footer p small {
+  color: gray;
+}
 
 #productos {
-  background-color: lime;
+  background-color: #f07aa2;
 }
-#productos article {
-  background-color: purple;
+#productos #article {
+  background-color: plum;
 }
-#productos article a {
-  background-color: red;
+#productos #article a {
+  background-color: rebeccapurple;
 }
-#productos article a:hover {
-  background-color: burlywood;
+#productos #article a:hover {
+  background-color: brown;
 }
+
+/*# sourceMappingURL=app.css.map */
