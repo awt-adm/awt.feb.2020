@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 5 rem;
+}
+// seccion header
+header {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+}
+// seccion productos
+#productos {
+  background-color: palevioletred;
+
+  #article {
+    background-color: plum;
+    a {
+      background-color: rebeccapurple;
+      &:hover {
+        background-color: brown;
+      }
+    }
+  }
+}
