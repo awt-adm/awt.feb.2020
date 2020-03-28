@@ -10,7 +10,23 @@ Curso web ADM
     - [JS](https://www.youtube.com/watch?v=k9wTpG8NI4Q)  
     - [Material Design](https://material.io/)  
     - [MarkDown](https://www.markdowntutorial.com/)  
-- GIT
+
+- ##### Línea de comandos
+- Todos los comandos se escriben con minúscula
+- Tabulador: Completa el nombre de archivo/carpeta Si existe en el - directorio actual
+- Flecha arriba/abajo: Historial de comandos
+- Comandos básicos
+
+    - . -> Mi nivel
+    - .. -> Un nivel arriba
+    - ls -> List
+        - l -> tipo lista
+        - a -> Archivos invisibles
+    - cd -> Cambiar de directorio
+    - mkdir -> Crea un directorio
+        - mkdir [Nombre de directorio]
+
+- ##### GIT
   - ¿Qué es Git?
   - Instalación
     - Linux / MacOS [Git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=2ahUKEwjtgsPUycDeAhVFSq0KHS-IBywQFjADegQIBBAB&url=https%3A%2F%2Fgit-scm.com%2Fbook%2Fen%2Fv2%2FGetting-Started-Installing-Git&usg=AOvVaw34_NoLPGdtnUVR92ZCaR9H)
@@ -103,6 +119,7 @@ Curso web ADM
 
 ## **Clase 5**
 - (SASS)[https://sass-lang.com/guide]
+  - Terminal o GUI(General user interface)
 
 - Código creativo
   - Supercollider
