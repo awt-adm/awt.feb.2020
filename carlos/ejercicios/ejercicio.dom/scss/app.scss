@@ -4,7 +4,7 @@ html{
 }
 
 
-budy{
+body{
 	box-sizing: border-box;
 	padding: 5rem;
 	scroll-behavior: smooth;
@@ -55,6 +55,15 @@ budy{
 			}
 
 		}
+
+	}
+
+
+	footer{
+		background-color: lightblue;
+		color: black;
+		text-align: center;
+
 
 	}
 }
