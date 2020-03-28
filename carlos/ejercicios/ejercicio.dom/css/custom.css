@@ -133,7 +133,9 @@
     /* seccion ejercicio */
     
     #ejercicio p {
-        display: none;
+        transition: 10s;
+        overflow: hidden;
+        height: 0;
     }
     /*Responsivos*/
     /*XS*/
