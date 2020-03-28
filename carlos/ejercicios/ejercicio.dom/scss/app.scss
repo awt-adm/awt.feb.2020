@@ -1,0 +1,77 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+budy{
+	box-sizing: border-box;
+	padding: 5rem;
+	scroll-behavior: smooth;
+
+	header{
+		padding: 0.5rem 1rem;
+		display: flex;
+		justify-content: space-between;
+		height: 3.5rem;
+		width: 100%;
+		box-sizing:border-box;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		background-color:white;
+		box-shadow: 2px 0 3px #000;
+
+		.logo{
+			height: 100%;
+
+			img{
+				object-fit: contain;
+				height: 100%;
+				widht: 100%;
+			}
+
+		}
+
+		.menu{
+			display:flex;
+			ul{
+				margin:0;
+				padding:0;
+				list-style-type: none;
+				display: inline-flex;
+
+				li{
+					list-style-type: none;
+					height: 100%;
+					display: flex;
+					align-items: center;
+
+					a{
+						padding: 1rem;
+					}
+				}
+			}
+
+		}
+
+	}
+}
+
+#productos{
+	background-color: lime;
+
+	article{
+		background-color: purple;
+
+		a {
+			backgound-color: red;
+			&:hover{
+				background-color: bulrywood;
+			}
+
+		}
+	}
+}
+

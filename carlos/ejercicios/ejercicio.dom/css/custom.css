@@ -137,6 +137,10 @@
             text-align: center;
         }
 
+        #ejercicio p{
+            display: none;
+        }
+
         /*Responsivos*/
 
         /*XS*/
