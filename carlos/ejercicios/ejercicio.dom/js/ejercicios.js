@@ -1,7 +1,6 @@
 // Arrow functions o funciones anonimas " () => {} "
 document.addEventListener("DOMContentLoaded", () => {
 
-
     operacion();
     textoBoton();
 

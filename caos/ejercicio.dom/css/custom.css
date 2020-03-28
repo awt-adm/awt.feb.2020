@@ -1,5 +1,5 @@
-    @import url('https://fonts.googleapis.com/css?family=Spartan&display=swap') @import url('https://fonts.googleapis.com/css?family=Roboto|Spartan&display=swap');
-    root {
+    @import url('https://fonts.googleapis.com/css?family=Roboto|Spartan&display=swap');
+     :root {
         --radius: 0.25rem;
         --fondo-btn-primario: #cecece;
     }
