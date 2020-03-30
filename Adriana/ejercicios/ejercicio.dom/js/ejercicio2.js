@@ -45,11 +45,13 @@ const clickBoton = () => {
         if (estadoBoton == true) {
 
             verMas.innerText = "Cerrar";
-            parrafo.style.display = "block"
+            // parrafo.style.display = "block"
+            parrafo.style.height = "100px"
 
         } else {
             verMas.innerText = "Ver Más";
-            parrafo.style.display = "none"
+            // parrafo.style.display = "none"
+            parrafo.style.height = 0
 
         }
 

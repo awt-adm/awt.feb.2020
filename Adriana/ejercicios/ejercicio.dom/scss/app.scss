@@ -1,10 +1,10 @@
 // TODO: estilos a todo el sitio
-// mientras aprendemos la sintaxis de SASS
-// ordenar por variables
-// importar archivos
 // Creacion automatica clases
-// Hacer Header
+// Crear un theming
 //
+// SASS
+@import "./_patela.color";
+@import "./_fuentes";
 // sintaxis version SASS
 html {
   scroll-behavior: smooth;
@@ -12,8 +12,18 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 5rem;
-  background-color: rgb(247, 219, 167);
+  main {
+    box-sizing: border-box;
+    section {
+      box-sizing: border-box;
+    }
+    #calculos {
+      background-color: pink;
+    }
+    #ejercicio {
+      background-color: plum;
+    }
+  }
   // seccion header
   header {
     box-sizing: border-box;
@@ -28,16 +38,19 @@ body {
     z-index: 10000;
     background-color: white;
     box-shadow: 2px 0px 3px #000;
+
     .logo {
       height: 100%;
       img {
         object-fit: contain;
         height: 100%;
-        width: 100%;
+        width: 400%;
       }
     }
     .menu {
       display: flex;
+      width: 100%;
+      justify-content: right;
       ul {
         margin: 0;
         padding: 0;
@@ -71,17 +84,21 @@ body {
     }
   }
 }
+h1 {
+  text-decoration-color: $color-blanco;
+}
 // seccion productos
 #productos {
-  background-color: rgb(240, 122, 162);
-
-  #article {
-    background-color: plum;
+  background-color: $color-3;
+  article {
+    background-color: $color-3;
     a {
-      background-color: rebeccapurple;
+      background-color: $color-1;
       &:hover {
-        background-color: brown;
+        background-color: $color-oscuro;
       }
     }
   }
 }
+
+// Seccion calculadora
