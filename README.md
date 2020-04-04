@@ -132,42 +132,41 @@ Curso web ADM
   
 
 - Código creativo
-  - Supercollider
-  - Canvas
   - P5.js
+    - [Ejercicios](https://p5js.org/examples/)
 
 ##### Tarea
 
 **Usar sass**
 **usar variables**
 **interaccion JS**
-  - Header se pega al scrollear fuera de la portada
-  
+  - Menu al dar click en un elemento, se scrollea suavemente hacia la sección deseada.(CSS)
+  - Header se pega arriba de la ventana al scrollear fuera de la portada(JS)
+  - Al dar click en el botón del contacto, debe aparecer una leyenda por debajo de el 'form'
+  - Imprime en un 'div' el valor mientras ingresas texto en el input #1 de contacto
 **usar theming**
 
 - Header
-- seccion 
-    - Portada
-        - Slider
-            - Slide
-                - Texto 
-                - Imagen fondo
-                - Call to action (link) a contacto
-- seccion
-    - Titulo
-    - bienvenida
-        - Titulo
-        - Texto
-        - Imagen
-- seccion
-    - Titulo
+- sección: **Portada**
+    - Slider
+        - Slide
+            - Texto 
+            - Imagen fondo
+            - Call to action (link) a contacto
+- Sección: **¿Quién somos?**
+    - Título
+      - Título
+      - Texto
+      - Imagen
+- Sección: **Tarjetas**
+    - Título
     - Grid 
         - Tarjetas
             - Foto 
-            - Titulo
+            - Título
             - Texto descriptivo
-- seccion
-    - Titulo
+- Sección: **Contácto**
+    - Título
     - Input type="texto"
     - Input type="email"
     - Select type="Asunto"

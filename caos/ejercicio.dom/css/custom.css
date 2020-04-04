@@ -95,6 +95,10 @@
         padding: 1rem;
     }
     
+    #productos .contenedor-grid {
+        text-align: center;
+    }
+    
     #productos article {
         border: 1px solid lightgray;
         display: inline-grid;
