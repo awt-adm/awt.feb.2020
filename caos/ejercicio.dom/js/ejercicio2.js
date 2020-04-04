@@ -89,13 +89,13 @@ const cambiaEstiloTexto = () => {
 
     botonCambia.addEventListener("click", () => {
 
-        if (booleano != false) {
-            titulo.classList.add("font-titulos");
+        if (booleano != true) {
+            titulo.classList.add("font-titulos"); // agrega clase
         } else {
-            titulo.classList.remove("font-titulos");
+            titulo.classList.remove("font-titulos"); // quita clase
         }
-        booleano = !booleano
-            // titulo.classList.remove("font-titulos")
+
+        booleano = !booleano; // cambia su valor a contrario
 
     });
 
