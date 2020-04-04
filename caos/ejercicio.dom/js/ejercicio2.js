@@ -3,7 +3,27 @@ document.addEventListener("DOMContentLoaded", () => {
     titlulo();
     clickBoton();
 
+
+    //TODO: Apartir de un array repetir y sumar
+    let arr = ["ADM", "Instituto", "Web"];
+    debug(arr)
+
 }); //ready
+
+// Ejemplo Iteracion
+const debug = (array) => {
+
+        let i = 0;
+        array.forEach((elemento) => {
+
+            console.log("DEBUG: ", elemento + " : " + i);
+
+            i++;
+
+        })
+
+    }
+    // 
 
 let estadoBoton = false;
 let verMas = document.querySelector('#ejercicio button');

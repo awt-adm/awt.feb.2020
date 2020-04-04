@@ -11,6 +11,18 @@
   font-family: "Spicy";
 }
 
+.font-small {
+  font-size: 0.5rem;
+}
+
+.font-medium {
+  font-size: 1rem;
+}
+
+.font-large {
+  font-size: 3rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -87,6 +99,9 @@ body footer p small {
 }
 #productos article {
   background-color: #8A7BAF;
+}
+#productos article h1 {
+  font-family: "Liu Jian Mao Cao", sans-serif;
 }
 #productos article a {
   background-color: #8A7BAF;

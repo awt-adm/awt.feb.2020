@@ -165,3 +165,16 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
+    /*  */
+    
+    .padding-0 {
+        padding: 1rem;
+    }
+    
+    .padding-1 {
+        padding: 2rem;
+    }
+    
+    .padding-2 {
+        padding: 3rem;
+    }
