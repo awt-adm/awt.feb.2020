@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Liu+Jian+Mao+Cao|Spicy+Rice&display=swap");
+.color-negro {
+  color: #000;
+}
+
+.color-blanco {
+  color: #fff;
+}
+
+.color-oscuro {
+  color: #291657;
+}
+
+.color-rosa {
+  color: #ba5d7e;
+}
+
+.color-morado {
+  color: #9f4f89;
+}
+
+.color-lila {
+  color: #c393e6;
+}
+
 .font-titulos {
   font-family: "Liu Jian Mao Cao";
 }
@@ -99,7 +123,11 @@ h1 {
   background-color: #c393e6;
 }
 #productos article h1 {
+<<<<<<< HEAD
+  font-family: "Liu Jian Mao Cao";
+=======
   font-family: "Liu Jian Mao Cao", sans-serif;
+>>>>>>> b40e3458e5c7eea3e13b37a7097cd0cd9687a232
 }
 #productos article a {
   background-color: #ba5d7e;
