@@ -98,6 +98,9 @@ h1 {
 #productos article {
   background-color: #c393e6;
 }
+#productos article h1 {
+  font-family: "Liu Jian Mao Cao", sans-serif;
+}
 #productos article a {
   background-color: #ba5d7e;
 }
