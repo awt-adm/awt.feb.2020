@@ -2,8 +2,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     titlulo();
     clickBoton();
+    // 
+    cambiaEstiloTexto();
+
+
+    //TODO: Apartir de un array repetir y sumar
+    let arr = ["ADM", "Instituto", "Web"];
+    debug(arr)
 
 }); //ready
+
+// Ejemplo Iteracion
+const debug = (array) => {
+
+        let i = 0;
+        array.forEach((elemento) => {
+
+            console.log("DEBUG: ", elemento + " : " + i);
+
+            i++;
+
+        })
+
+    }
+    // 
 
 let estadoBoton = false;
 let verMas = document.querySelector('#ejercicio button');
@@ -56,4 +78,25 @@ const clickBoton = () => {
         }
 
     })
+}
+
+
+const cambiaEstiloTexto = () => {
+
+    let botonCambia = document.querySelector("#selecciona-fuente button");
+    let titulo = document.querySelector("#selecciona-fuente h1");
+    let booleano = false;
+
+    botonCambia.addEventListener("click", () => {
+
+        if (booleano != false) {
+            titulo.classList.add("font-titulos");
+        } else {
+            titulo.classList.remove("font-titulos");
+        }
+        booleano = !booleano
+            // titulo.classList.remove("font-titulos")
+
+    });
+
 }

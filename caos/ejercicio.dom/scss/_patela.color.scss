@@ -5,4 +5,14 @@ $color-claro: #AA8C39;
 $color-1: #479030;
 $color-2: #114800;
 $color-3: #8A7BAF;
-$color-4: #553F00;
+// crear una lista
+$colores: ( negro $color-negro, blanco $color-blanco, oscuro $color-oscuro, claro $color-claro, 1 $color-1, 2 $color-2, 3 $color-3, );
+// Crear clases iterando la lista
+@each $color in $colores {
+    .color-#{ nth($color,1) } {
+        color: nth($color, 2)
+    }
+    .fondo-#{ nth($color,1) } {
+        color: nth($color, 2)
+    }
+}

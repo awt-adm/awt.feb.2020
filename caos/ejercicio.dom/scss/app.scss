@@ -83,6 +83,9 @@ body {
     background-color: $color-3;
     article {
         background-color: $color-3;
+        h1 {
+            font-family: "Liu Jian Mao Cao", sans-serif;
+        }
         a {
             background-color: $color-3;
             &:hover {
