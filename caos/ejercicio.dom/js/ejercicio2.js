@@ -85,15 +85,17 @@ const cambiaEstiloTexto = () => {
 
     let botonCambia = document.querySelector("#selecciona-fuente button");
     let titulo = document.querySelector("#selecciona-fuente h1");
+    let booleano = false;
 
     botonCambia.addEventListener("click", () => {
 
-        console.log("TITULO::: ", titulo);
-
-
-        titulo.classList.add("font-titulos")
-
-        // titulo.classList.remove("font-titulos")
+        if (booleano != false) {
+            titulo.classList.add("font-titulos");
+        } else {
+            titulo.classList.remove("font-titulos");
+        }
+        booleano = !booleano
+            // titulo.classList.remove("font-titulos")
 
     });
 
