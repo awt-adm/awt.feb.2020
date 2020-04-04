@@ -77,6 +77,7 @@ Curso web ADM
      - resta: 2-2
      - Potencia: 2**2
      - División: 2/2
+    - [Operadores W3C](https://www.w3schools.com/jsref/jsref_operators.asp)
 
   - Estructuras de control
     - Estructuras que nos permiten condicionar nuestro código
@@ -120,9 +121,59 @@ Curso web ADM
 ## **Clase 5**
 - (SASS)[https://sass-lang.com/guide]
   - Terminal o GUI(General user interface)
+  - Sintaxis básica
+    - Jerarquía 
+    - Concatenación
+
+## **Clase 5**
+- (SASS)[https://sass-lang.com/guide]
+  - [Listas](https://sass-lang.com/documentation/modules/list) 
+  - Creacion de clases con @each 
+  
 
 - Código creativo
   - Supercollider
   - Canvas
   - P5.js
 
+##### Tarea
+
+**Usar sass**
+**usar variables**
+**interaccion JS**
+  - Header se pega al scrollear fuera de la portada
+  
+**usar theming**
+
+- Header
+- seccion 
+    - Portada
+        - Slider
+            - Slide
+                - Texto 
+                - Imagen fondo
+                - Call to action (link) a contacto
+- seccion
+    - Titulo
+    - bienvenida
+        - Titulo
+        - Texto
+        - Imagen
+- seccion
+    - Titulo
+    - Grid 
+        - Tarjetas
+            - Foto 
+            - Titulo
+            - Texto descriptivo
+- seccion
+    - Titulo
+    - Input type="texto"
+    - Input type="email"
+    - Select type="Asunto"
+    - Textarea 
+    - boton enviar
+
+-Footer
+    - Copyright
+    
