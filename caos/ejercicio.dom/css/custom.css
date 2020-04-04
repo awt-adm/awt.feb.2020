@@ -38,6 +38,7 @@
     #bienvenida {
         height: 100vh;
         width: 100%;
+        padding: 0;
     }
     
     .bienvenidaSlide {
@@ -177,4 +178,8 @@
     
     .padding-2 {
         padding: 3rem;
+    }
+    
+    .slick-dots {
+        left: 0;
     }
