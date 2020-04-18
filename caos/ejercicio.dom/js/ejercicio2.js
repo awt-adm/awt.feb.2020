@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     titlulo();
     clickBoton();
+    // 
+    cambiaEstiloTexto();
 
 
     //TODO: Apartir de un array repetir y sumar
@@ -76,4 +78,25 @@ const clickBoton = () => {
         }
 
     })
+}
+
+
+const cambiaEstiloTexto = () => {
+
+    let botonCambia = document.querySelector("#selecciona-fuente button");
+    let titulo = document.querySelector("#selecciona-fuente h1");
+    let booleano = false;
+
+    botonCambia.addEventListener("click", () => {
+
+        if (booleano != true) {
+            titulo.classList.add("font-titulos"); // agrega clase
+        } else {
+            titulo.classList.remove("font-titulos"); // quita clase
+        }
+
+        booleano = !booleano; // cambia su valor a contrario
+
+    });
+
 }

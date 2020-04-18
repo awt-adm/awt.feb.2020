@@ -6,3 +6,20 @@ $color-1: #ba5d7e;
 $color-2: #9f4f89;
 $color-3: rgb(195, 147, 230);
 $color-4: #553f00;
+
+$colores: (
+  negro $color-negro,
+  blanco $color-blanco,
+  oscuro $color-oscuro,
+  rosa $color-1,
+  morado $color-2,
+  lila $color-3
+);
+
+@each $color in $colores {
+  .color-#{nth($color, 1)} {
+    & {
+      color: nth($color, 2);
+    }
+  }
+}
