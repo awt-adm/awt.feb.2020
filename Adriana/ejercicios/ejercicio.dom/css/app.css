@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Liu+Jian+Mao+Cao|Spicy+Rice&display=swap");
+.font-titulos {
+  font-family: "Liu Jian Mao Cao";
+}
+
+.font-textos {
+  font-family: "Rice";
+}
+
+.font-texto_especial {
+  font-family: "Spicy";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+}
+body main {
+  box-sizing: border-box;
+}
+body main section {
+  box-sizing: border-box;
+}
+body main #calculos {
+  background-color: pink;
+}
+body main #ejercicio {
+  background-color: plum;
+}
+body header {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: start;
+  height: 3.5rem;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+  background-color: white;
+  box-shadow: 2px 0px 3px #000;
+}
+body header .logo {
+  height: 100%;
+}
+body header .logo img {
+  object-fit: contain;
+  height: 100%;
+  width: 400%;
+}
+body header .menu {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+body header .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-flex;
+}
+body header .menu ul li {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+body header .menu ul li a {
+  padding: 1rem;
+  text-decoration: none;
+}
+body footer {
+  background-color: lightgray;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer p {
+  height: auto;
+  font-size: 0.75rem;
+}
+body footer p small {
+  color: gray;
+}
+
+h1 {
+  text-decoration-color: #fff;
+}
+
+#productos {
+  background-color: #c393e6;
+}
+#productos article {
+  background-color: #c393e6;
+}
+#productos article h1 {
+  font-family: "Liu Jian Mao Cao", sans-serif;
+}
+#productos article a {
+  background-color: #ba5d7e;
+}
+#productos article a:hover {
+  background-color: #291657;
+}
+
+/*# sourceMappingURL=app.css.map */

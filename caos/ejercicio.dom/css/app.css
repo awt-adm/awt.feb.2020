@@ -1,10 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Liu+Jian+Mao+Cao|Spicy+Rice&display=swap");
+.font-titulos {
+  font-family: "Liu Jian Mao Cao";
+}
+
+.font-textos {
+  font-family: "Rice";
+}
+
+.font-texto_especial {
+  font-family: "Spicy";
+}
+
+.font-small {
+  font-size: 0.5rem;
+}
+
+.font-medium {
+  font-size: 1rem;
+}
+
+.font-large {
+  font-size: 3rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   box-sizing: border-box;
-  padding: 5rem;
+}
+body main {
+  box-sizing: border-box;
+}
+body main section {
+  box-sizing: border-box;
 }
 body header {
   box-sizing: border-box;
@@ -30,6 +60,8 @@ body header .logo img {
 }
 body header .menu {
   display: flex;
+  width: 100%;
+  justify-content: right;
 }
 body header .menu ul {
   margin: 0;
@@ -63,16 +95,19 @@ body footer p small {
 }
 
 #productos {
-  background-color: lime;
+  background-color: #8A7BAF;
 }
 #productos article {
-  background-color: purple;
+  background-color: #8A7BAF;
+}
+#productos article h1 {
+  font-family: "Liu Jian Mao Cao", sans-serif;
 }
 #productos article a {
-  background-color: red;
+  background-color: #8A7BAF;
 }
 #productos article a:hover {
-  background-color: burlywood;
+  background-color: #8A7BAF;
 }
 
 /*# sourceMappingURL=app.css.map */

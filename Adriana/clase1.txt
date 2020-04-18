@@ -1,5 +1,0 @@
-## Datos De la clase 1:
-
-- OOP y DOM
-
-- GIT

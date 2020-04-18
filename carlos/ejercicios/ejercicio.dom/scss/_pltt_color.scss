@@ -1,0 +1,31 @@
+$color-negro: #000;
+$color-blanco: #fff;
+$color-oscuro: #291657;
+$color-claro: #AA8C39;
+$color-1: #479030;
+$color-2: #114800;
+$color-3: #8A7BAF;
+// crear una lista
+// Crear clases iterando la lista
+
+
+// Crea variables de tamano
+$deku: #1F5D4F;
+$todoroki: orange;
+$ochako: pink;
+$allmight: blue;
+$erased: grey;
+$endeavor: red;
+$dabi: purple;
+
+
+
+$colorescarlos: (color-deku $deku, color-todorki $todoroki, color-ochako $ochako, color-allmight $allmight, color-erased $erased, color-endeavor $endeavor, color-dabi $dabi );
+
+// por medio de Iteracion
+@each $color in $colorescarlos {
+    .color-#{nth($color, 1)} {
+         color:nth($color,2)
+    }
+}
+

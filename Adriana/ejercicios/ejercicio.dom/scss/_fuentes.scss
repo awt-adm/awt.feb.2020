@@ -1,0 +1,36 @@
+// @font-face {
+//     font-family: 'slantregular';
+//     src: url('../fonts/txt/slant-webfont.woff2') format('woff2'),
+//          url('../fonts/txt/slant-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// Importa las fuentes 
+@import url('https://fonts.googleapis.com/css?family=Anton|Liu+Jian+Mao+Cao|Spicy+Rice&display=swap');
+// Crea las variables de texto
+$titulos: 'Liu Jian Mao Cao';
+$textos: 'Rice';
+$texto_especial: 'Spicy';
+// Crea un Array de variables (nombre -> valor)
+$lista-fuentes: ( titulos $titulos,
+textos $textos,
+texto_especial $texto_especial);
+// Crea las clases
+@each $value in $lista-fuentes {
+    .font-#{nth($value, 1)} {
+        & {
+            font-family: nth($value, 2);
+        }
+    }
+}
+
+// Las clases creadas son:
+// .font-titulos
+// .font-textos
+// .font-texto_especial
+// Estas pueden ser repartidas en los elementos HTML de la sig. manera:
+// ej.:
+// <section>
+// <h1 class="font-titulos">Titulo</h1>
+// <p class="font-textos">lorem impsum dolor .... </p>
+// </section>

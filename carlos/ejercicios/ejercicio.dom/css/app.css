@@ -1,25 +1,57 @@
+.color-color-deku {
+  color: #1F5D4F;
+}
+
+.color-color-todorki {
+  color: orange;
+}
+
+.color-color-ochako {
+  color: pink;
+}
+
+.color-color-allmight {
+  color: blue;
+}
+
+.color-color-erased {
+  color: grey;
+}
+
+.color-color-endeavor {
+  color: red;
+}
+
+.color-color-dabi {
+  color: purple;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   box-sizing: border-box;
-  padding: 5rem;
-  scroll-behavior: smooth;
+}
+body main {
+  box-sizing: border-box;
+}
+body main section {
+  box-sizing: border-box;
 }
 body header {
+  box-sizing: border-box;
   padding: 0.5rem 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   height: 3.5rem;
   width: 100%;
-  box-sizing: border-box;
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 10000;
   background-color: white;
-  box-shadow: 2px 0 3px #000;
+  box-shadow: 2px 0px 3px #000;
 }
 body header .logo {
   height: 100%;
@@ -27,10 +59,12 @@ body header .logo {
 body header .logo img {
   object-fit: contain;
   height: 100%;
-  widht: 100%;
+  width: 100%;
 }
 body header .menu {
   display: flex;
+  width: 100%;
+  justify-content: right;
 }
 body header .menu ul {
   margin: 0;
@@ -46,24 +80,37 @@ body header .menu ul li {
 }
 body header .menu ul li a {
   padding: 1rem;
+  text-decoration: none;
 }
 body footer {
-  background-color: lightblue;
-  color: black;
-  text-align: center;
+  background-color: lightgray;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer p {
+  height: auto;
+  font-size: 0.75rem;
+}
+body footer p small {
+  color: gray;
 }
 
 #productos {
-  background-color: lime;
+  background-color: #8A7BAF;
 }
 #productos article {
-  background-color: purple;
+  background-color: #8A7BAF;
+}
+#productos article h1 {
+  font-family: "Liu Jian Mao Cao", sans-serif;
 }
 #productos article a {
-  backgound-color: red;
+  background-color: #8A7BAF;
 }
 #productos article a:hover {
-  background-color: bulrywood;
+  background-color: #8A7BAF;
 }
 
 /*# sourceMappingURL=app.css.map */

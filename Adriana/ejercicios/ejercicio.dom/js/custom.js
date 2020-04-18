@@ -1,21 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
-  slider();
-  colorFondo();
 
-  // console.log("Scripts OK.");
+    slider();
+
+    console.log("Scripts OK.");
 });
 
-function colorFondo() {
-  let body = document.querySelector("body");
-
-  body.style.backgroundColor = "lime";
-}
-
 const slider = () => {
-  $("#bienvenida").slick({
-    autoplay: true,
-    autoplaySpeed: 100,
-    speed: 4000,
-    dots: true
-  });
-};
+
+    $("#bienvenida").slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 3000,
+        dots: true,
+    })
+
+}

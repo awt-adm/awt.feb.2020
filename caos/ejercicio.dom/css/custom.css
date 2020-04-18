@@ -82,10 +82,16 @@
     /*productos*/
     
     #productos {
+        display: block;
+    }
+    
+    #productos .contenedor-productos {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 2rem;
         grid-row-gap: 2rem;
+        box-sizing: border-box;
+        padding: 1rem;
     }
     
     #productos article {
@@ -158,4 +164,17 @@
         #productos {
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
+    }
+    /*  */
+    
+    .padding-0 {
+        padding: 1rem;
+    }
+    
+    .padding-1 {
+        padding: 2rem;
+    }
+    
+    .padding-2 {
+        padding: 3rem;
     }
